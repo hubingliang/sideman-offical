@@ -1,0 +1,7 @@
+# Ignore local tooling noise; keep the site pure static for GitHub Pages.
+.DS_Store
+.vercel
+node_modules/
+dist/
+.idea/
+.vscode/

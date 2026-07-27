@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sideman — Privacy Policy</title>
+    <meta
+      name="description"
+      content="Privacy Policy for Sideman, a pocket guide to jazz sidemen and session credits."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="site-header">
+        <a class="brand" href="./">Sideman</a>
+        <nav class="nav">
+          <a href="./privacy/">Privacy</a>
+        </nav>
+      </header>
+
+      <main class="hero">
+        <p class="kicker">Jazz session credits</p>
+        <h1>Sideman</h1>
+        <p class="lede">
+          A pocket guide to jazz sidemen, sessions, and the records that connect
+          them.
+        </p>
+        <p class="meta">
+          <a href="./privacy/">Privacy Policy</a>
+          · App Store listing coming soon
+        </p>
+      </main>
+
+      <footer class="site-footer">
+        <p>© <span id="year"></span> Sideman</p>
+      </footer>
+    </div>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

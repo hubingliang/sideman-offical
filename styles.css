@@ -1,0 +1,186 @@
+:root {
+  --bg: #f7f3eb;
+  --text: #1a1612;
+  --muted: #6b6358;
+  --accent: #8b6914;
+  --border: #d4c9b8;
+  --max: 40rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(ellipse at top, rgba(196, 165, 116, 0.18), transparent 55%),
+    var(--bg);
+  color: var(--text);
+  font-family:
+    'Iowan Old Style',
+    'Palatino Linotype',
+    Palatino,
+    'Book Antiqua',
+    Georgia,
+    serif;
+  line-height: 1.55;
+}
+
+a {
+  color: var(--accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+a:hover {
+  color: var(--text);
+}
+
+.page {
+  max-width: calc(var(--max) + 3rem);
+  margin: 0 auto;
+  padding: 1.5rem 1.5rem 3rem;
+}
+
+.site-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 2.5rem;
+}
+
+.brand {
+  font-style: italic;
+  font-size: 1.35rem;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.nav a {
+  font-family:
+    'DM Sans',
+    'Helvetica Neue',
+    Helvetica,
+    Arial,
+    sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--muted);
+}
+
+.nav a[aria-current='page'],
+.nav a:hover {
+  color: var(--text);
+}
+
+.kicker {
+  margin: 0 0 0.5rem;
+  font-family:
+    'JetBrains Mono',
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+h1 {
+  margin: 0 0 0.75rem;
+  font-size: clamp(2.4rem, 7vw, 3.4rem);
+  font-weight: 600;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.lede {
+  margin: 0;
+  max-width: 32rem;
+  font-size: 1.15rem;
+  color: var(--muted);
+}
+
+.updated,
+.meta,
+.note {
+  font-family:
+    'DM Sans',
+    'Helvetica Neue',
+    Helvetica,
+    Arial,
+    sans-serif;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.updated {
+  margin: 1rem 0 2rem;
+}
+
+.hero {
+  padding: 2rem 0 4rem;
+}
+
+.hero .meta {
+  margin-top: 2rem;
+}
+
+.legal section {
+  margin-bottom: 1.75rem;
+}
+
+.legal p {
+  margin: 0;
+}
+
+.legal section p + p {
+  margin-top: 0.75rem;
+}
+
+.note {
+  margin-top: 0.75rem !important;
+  font-style: italic;
+}
+
+.back {
+  margin-top: 2.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border);
+}
+
+.site-footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.site-footer p {
+  margin: 0;
+  font-family:
+    'DM Sans',
+    'Helvetica Neue',
+    Helvetica,
+    Arial,
+    sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}

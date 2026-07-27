@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy Policy — Sideman</title>
+    <meta
+      name="description"
+      content="Privacy Policy for the Sideman mobile app."
+    />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <div class="page legal">
+      <header class="site-header">
+        <a class="brand" href="../">Sideman</a>
+        <nav class="nav">
+          <a aria-current="page" href="./">Privacy</a>
+        </nav>
+      </header>
+
+      <article>
+        <p class="kicker">Legal</p>
+        <h1>Privacy Policy</h1>
+        <p class="lede">Sideman is designed to work without an account.</p>
+        <p class="updated">Last updated: July 27, 2026</p>
+
+        <section>
+          <h2>What we collect</h2>
+          <p>
+            We do not require sign-in. We do not run an analytics SDK in the
+            current build. Preferences you choose in Settings (appearance,
+            language, and developer preview flags) stay on your device.
+          </p>
+        </section>
+
+        <section>
+          <h2>On-device storage</h2>
+          <p>
+            Theme, language, and optional developer Pro preview are saved
+            locally with on-device storage so they survive app restarts. Clearing
+            app data removes them. Sideman does not operate a user account
+            system, so there is no account deletion flow.
+          </p>
+        </section>
+
+        <section>
+          <h2>Network activity</h2>
+          <p>
+            Album covers and musician portraits may load from remote hosts (for
+            example Spotify, Discogs, or Wikimedia). Opening Spotify, Wikipedia,
+            Apple Music, or other links leaves the app and follows that
+            service’s privacy policy.
+          </p>
+        </section>
+
+        <section>
+          <h2>Third parties</h2>
+          <p>
+            Sideman does not sell personal data. When you follow an external
+            link, that destination may process data under its own terms. Future
+            subscription billing (for example RevenueCat via the App Store) will
+            add purchase metadata handled by Apple and the billing
+            provider—not a Sideman account system. If we add analytics, crash
+            reporting, accounts, or cloud sync later, this policy will be
+            updated before those features ship.
+          </p>
+        </section>
+
+        <section>
+          <h2>Children</h2>
+          <p>
+            Sideman is not directed at children under 13. We do not knowingly
+            collect personal information from children.
+          </p>
+        </section>
+
+        <section>
+          <h2>Contact</h2>
+          <p>
+            Questions about privacy can be sent to
+            <a href="mailto:brianhu.cn@gmail.com">brianhu.cn@gmail.com</a>.
+            Please include “Sideman Privacy” in the subject line.
+          </p>
+        </section>
+
+        <p class="meta back">
+          <a href="../">← Back to Sideman</a>
+        </p>
+      </article>
+
+      <footer class="site-footer">
+        <p>© <span id="year"></span> Sideman</p>
+      </footer>
+    </div>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
