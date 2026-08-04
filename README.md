@@ -1,6 +1,6 @@
 # Sideman official site
 
-Public static pages for App Store / Play listing links (Privacy, Terms, and a light marketing home).
+Public static pages for App Store / Play listing links (Privacy, Terms, Support, and a light marketing home).
 
 App source stays private in a separate repository. This site can grow into a fuller marketing site later without changing the Privacy / Terms URL paths.
 
@@ -25,6 +25,8 @@ npx --yes serve .
      `https://hubingliang.github.io/sideman-offical/privacy/`
    - Terms (EULA / Terms of Use if asked):  
      `https://hubingliang.github.io/sideman-offical/terms/`
+   - Support (App Store Connect **Support URL**):  
+     `https://hubingliang.github.io/sideman-offical/support/`
 
 ## Keep in sync with the app
 
@@ -34,4 +36,4 @@ The public Privacy page may keep a short **Children** section that is not shown 
 
 ## Contact
 
-Privacy and Terms use `brianhu.cn@gmail.com`. Change it here and in the app if you prefer a dedicated inbox.
+Privacy, Terms, and Support use `brianhu.cn@gmail.com`. Change it here and in the app if you prefer a dedicated inbox.
